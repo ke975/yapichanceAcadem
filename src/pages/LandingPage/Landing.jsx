@@ -1,35 +1,28 @@
-
-
-import Header from "../../components/Nav";
 import Banner from "../../components/Banner";
 import About from "../../components/About";
 import Client from "../../components/Client";
-import Services from "../../components/Services";
 import Call from "../../components/Cta";
-
-import Team from "../../components/Team"
 import Footer from "../../components/Footer"
 import Contact from "../../components/Contact"
 import { Navbar } from "../../components/Navbar/Navbar";
+import { BannerPhoto } from "../../components/ImagenCurso/ImageCourse"
+import { Information } from "../../components/Information/information";
 export function Landing() {
 
 
 
 
-   
+
 
     return (
         <>
-<header>
+            <header>
 
-    <Navbar/>
-</header>
+                <Navbar />
+            </header>
+
             <div>
                 <Banner></Banner>
-            </div>
-
-            <div>
-                <Client />
             </div>
 
             <div className="mt-5 mb-5">
@@ -38,27 +31,34 @@ export function Landing() {
 
             </div>
 
-            <section className="mt*5">
-                <Services />
-            </section>
+
+            <div>
+                <BannerPhoto />
+            </div>
 
 
-
-            <section className="mt-5">
+            <section >
                 <Call />
             </section>
 
-          
 
 
-            <section className="mt-5 mb-3">
 
-                <Team />
-            </section>
+            <div>
+                <Information />
+            </div>
 
-            <section className="mt-5 mb-5">
-                <Contact />
-            </section>
+
+         
+
+       
+
+        
+
+
+
+
+         
 
             <footer>
                 <Footer />

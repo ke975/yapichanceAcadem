@@ -65,13 +65,7 @@ export const Navbar = () => {
 
         <nav id="navbar" className={`navbar ${isNavCollapsed ? '' : 'navbar-mobile'}`}>
           <ul>
-            <li><a className={`nav-link scrollto nav1 ${activeLink === '#hero' ? 'active' : ''}`} href="#hero" onClick={scrollTo}>Inicio</a></li>
-            <li><a className={`nav-link scrollto ${activeLink === '#about-2' ? 'active' : ''}`} href="#about-2" onClick={scrollTo}>Sobre Nosotros </a></li>
-            <li><a className={`nav-link scrollto ${activeLink === '#services' ? 'active' : ''}`} href="#services" onClick={scrollTo}>Servicios</a></li>
-            <li><a className={`nav-link scrollto ${activeLink === '#team' ? 'active' : ''}`} href="#team" onClick={scrollTo}>Team</a></li>
-           
-        
-            <Link  to ="/login"> Iniciar Sesión </Link>
+            <Link   to ="/login"><button className='btn btn-outline-success text-white rounded-3'>Iniciar Sesión </button> </Link>
             
 
           </ul>

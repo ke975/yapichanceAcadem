@@ -106,7 +106,7 @@ const Footer = () => {
             <div className='footer-top'>
                 <div className='container'>
                     <div className='row'>
-                        <div className="col-lg-3 col-md-6 footer-contact">
+                        <div className="col-lg-8 col-md-6 footer-contact">
                             <img src={Logo} className='img-fluid mb-3 ' width={100} alt="logotipo de la Empresa " />
                             <address>
                             De los Semáforos de Enabas una cuadra al este y media al sur, Estelí. <br />
@@ -117,10 +117,9 @@ const Footer = () => {
                             </address>
                         </div>
 
-                        <FooterLinkList title="Navegación de la Pagina " links={usefulLinks} />
-                        <FooterLinkList title="Nuestros Servicios" links={serviceLinks} />
+                    
 
-                        <div className="col-lg-3 col-md-6 footer-links">
+                        <div className="col-lg-4 col-md-4 footer-links">
                             <h4>Nuestras Redes Sociales </h4>
                             <p>Siuguenos para saber sobre nuestros eventos Gratuitos</p>
                             <SocialLinks links={socialLinks} />
@@ -129,13 +128,11 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="container footer-bottom clearfix">
-                <div className="copyright">
+            <div className="container footer-bottom clearfix justify-content-center ">
+                <div className="copyright text-center ">
                     &copy; Copyright <strong><span>Yapichance </span></strong>. Todos los Derechos Reservados.
                 </div>
-                <div className="credits">
-                    Designed by <a href="https://github.com/imtiyazshamim/">Shamim Imtiyaz</a>
-                </div>
+               
             </div>
 
             <BackToTop />

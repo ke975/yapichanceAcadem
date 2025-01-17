@@ -17,17 +17,13 @@ function Cta() {
     <section id="cta" className="cta">
       <div className="container" data-aos="zoom-in">
         <div className="row">
-          <div className="col-lg-9 text-center text-lg-start">
-            <h3>¡Transforma tu presencia digital hoy mismo! 🚀
+          <div className="col-lg-12 text-center text-lg-start">
+            <h3 className='text-center'>¡Transforma tu futuro hoy mismo! 🚀 
 
 </h3>
-            <p> ¿Estás listo para llevar tu marca al siguiente nivel? No dejes que tu competencia se adelante. ¡Aprovecha el poder de las redes sociales y haz crecer tu negocio!
-
-👉 Inscríbete ahora o contáctanos para obtener una consulta gratuita. ¡Juntos haremos que tu marca brille en el mundo digital! 🌟</p>
+            <p className='text-center'> ¿Estás listo para mejorar tus habilidades y avanzar en tu carrera? No dejes pasar esta oportunidad. ¡Aprovecha el poder de la educación y adquiere nuevas competencias que te diferenciarán! 👉 Inscríbete ahora o contáctanos para obtener una consulta gratuita. ¡Juntos te ayudaremos a alcanzar tus metas y a brillar en tu campo profesional! 🌟</p>
           </div>
-          <div className="col-lg-3 cta-btn-container text-center">
-            <a className="cta-btn align-middle" href="">Escribenos Ahora </a>
-          </div>
+        
         </div>
       </div>
     </section>
