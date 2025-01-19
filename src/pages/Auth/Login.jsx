@@ -88,7 +88,7 @@ export function Login() {
               </div>
             </form>
           </div>
-          <div className="col-md-4 ms-auto" style={{ height: "100vh", backgroundColor: "#AFB3FF" }}>
+          <div className="col-md-4 ms-auto  d-none d-sm-block" style={{ height: "100vh", backgroundColor: "#AFB3FF" }}>
             <img src={Compu} className="img-fluid" alt="imagen de Computadores" />
             <p className="text-center mt-5">No tienes una cuenta? <a href="/signup">Regístrate aquí</a></p>
           </div>

@@ -65,7 +65,7 @@ export const Navbar = () => {
 
         <nav id="navbar" className={`navbar ${isNavCollapsed ? '' : 'navbar-mobile'}`}>
           <ul>
-            <Link   to ="/login"><button className='btn btn-outline-success text-white rounded-3'>Iniciar Sesión </button> </Link>
+            <Link   to ="/login"><button className='btn btn-outline-success text-white  rounded-3'>Iniciar Sesión </button> </Link>
             
 
           </ul>
